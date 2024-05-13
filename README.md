@@ -52,3 +52,6 @@ Using I2C1 on a NUCLEO-64 board. DUT is connected in single-ended configuration 
 ![Untitled Sketch_bb](https://github.com/desmond-lagace/STM32-AD7747/assets/147556938/bc0b5691-e618-462b-ba64-5b8b275040ad)
 
 Use 10 $k\Omega$ pull-up resistors on SCL/SDA lines. Decouple the 3.3 V supply with 10 uF tantalum and 0.1 uF ceramic capacitors to ground. 
+
+## Reference
+https://www.analog.com/media/en/technical-documentation/data-sheets/ad7747.pdf
