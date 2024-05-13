@@ -1,5 +1,7 @@
 # STM32-AD7747
 
+For use with STM32CubeIDE and the HAL library. Ensure that the `main.h` file for your STM32 MCU is included in your working directory.
+
 ## Example
 
 Initialization:
