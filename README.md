@@ -25,4 +25,6 @@ The approximate resulting data value is:
 
 $DATA \approx (C_{+} - CAPDAC_A) - (C_{-} - CAPDAC_B)$
 
+## Notes
 
+Default configuration is 22 ms conversion time, 45.5 Hz update rate, continuous conversion mode.
