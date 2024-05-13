@@ -43,6 +43,8 @@ Set the conversion mode with the `setConversionMode` function, with choices bein
 /*  Set conversion mode to SINGLE  */
 ad7747.setConversionMode(&hi2c1,SINGLE);
 ```
+**If driver does not work in STM32CubeIDE, try renaming your `main.c` file to `main.cpp`**.
+
 ## Circuit
 
 Using I2C1 on a NUCLEO-64 board. DUT is connected in single-ended configuration to pin 8 (CIN(+)).
