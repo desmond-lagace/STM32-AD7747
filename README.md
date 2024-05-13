@@ -25,6 +25,13 @@ The approximate resulting data value is:
 
 $DATA \approx (C_{+} - CAPDAC_A) - (C_{-} - CAPDAC_B)$
 
+Set the CAPDAC value by using the `setCAPDAC` function. Maximum input value is 8.192. Example usage:
+
+```cpp
+/*  Set CAPDAC A to 8.192 pF  */
+ad7747.setCAPDAC(&hi2c1,A,8.192);
+```
+
 ## Notes
 
 Default configuration is 22 ms conversion time, 45.5 Hz update rate, continuous conversion mode.
