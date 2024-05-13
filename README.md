@@ -37,7 +37,7 @@ ad7747.setCAPDAC(&hi2c1,A,8.192);
 ## Notes
 
 Default configuration is 22 ms conversion time, 45.5 Hz update rate, continuous conversion mode.
-Set the conversion mode with the `setConversionMode` function, with choices being `IDLE`, `CONTINUOUS`, or `SINGLE`:
+Set the conversion mode with the `setConversionMode` function, with choices being `IDLE`, `CONTINUOUS`, or `SINGLE`. Example usage:
 
 ```cpp
 /*  Set conversion mode to SINGLE  */
