@@ -45,6 +45,8 @@ ad7747.setConversionMode(&hi2c1,SINGLE);
 ```
 **If driver does not work in STM32CubeIDE, try renaming your `main.c` file to `main.cpp`**.
 
+For better performance, use shielded coaxial cables with the shield connected to the SHLD pin on the AD7747. This pin sends the excitation signal through the shielding to negate as much parasitic capacitance in the circuitry as possible.
+
 ## Circuit
 
 Using I2C1 on a NUCLEO-64 board. DUT is connected in single-ended configuration to pin 8 (CIN(+)).
